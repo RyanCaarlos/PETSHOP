@@ -53,7 +53,7 @@
 }
 
 body {
-    font-family: "poppins";
+    font-family: "Poppins", Helvetica;
     background-color: #fff;
 }
 
@@ -71,4 +71,22 @@ body {
 	left: 970px;
 	position: absolute;
 	height: 647px;
+}
+
+.text-1 {
+    position: relative;
+    top: 450px;
+    left: 20px;
+    font-size: 50px;
+    color: #494949;
+    font-family: "Poppins", Helvetica;
+}
+
+.text-2 {
+    position: relative;
+    top: 455px;
+    left: 20px;
+    font-weight: 600;
+    color: #A9A9A9;
+    font-family: "Poppins", Helvetica;
 }
