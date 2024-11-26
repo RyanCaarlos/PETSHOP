@@ -1,3 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --verde-logo: #00C6B0;
+    --bege: #C9A37E;
+    --laranja: #EF7C45;
+    --verde-escuro: #485F42;
+    --azul: #7CA5B7;
+}
+
+.logo {
+    position: absolute;
+    top: 20px; 
+    left: 20px; 
+    display: flex; 
+    gap: 10px; 
+}
+
+.container {
+    position: absolute;
+    top: 20px; 
+    right: 20px; 
+    display: flex; 
+    gap: 30px; 
+}
+
+.botoes{
+    padding: 20px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+.botoes:hover {
+    background-color: var(--verde-logo);
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);}
+      
+.botoes:active {
+    transform: translateY(-1px);
+}
+
 body {
     font-family: "poppins";
+    background-color: #fff;
+}
+
+.fundo {
+    position: absolute;
+	width: 700px;
+	height: 700px;
+	top: 250px;
+	left: 877px;
+}
+
+.img {
+    width: 603px;
+	top: 300PX;
+	left: 970px;
+	position: absolute;
+	height: 647px;
 }
