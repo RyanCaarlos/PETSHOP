@@ -269,3 +269,26 @@ button {
 .span a {
   color: var(--azul);
 }
+
+footer {
+    position: relative;
+    top: 1865px;
+    width: 1575px;
+    height: 258px;
+    background-color: #fff;
+}
+
+p {
+    color: #A9A9A9;
+    padding: 20px 0px 0px 50px;
+}
+
+.logo-footer {
+    width: 200px;
+    padding: 20px 0px 0px 50px;
+}
+
+h6 {
+    padding: 20px 0px 0px 50px;
+    color: #494949;
+}
