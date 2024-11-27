@@ -91,7 +91,111 @@ body {
     font-family: "Poppins", Helvetica;
 }
 
-/* From Uiverse.io by bociKond */ 
+.nossos-produtos {
+    	position: absolute;
+	top: 1000px;
+	left: 550px;
+	font-family: "Poppins", Helvetica;
+	color: #494949;
+	line-height: normal;
+}
+
+#card-1 {
+    	padding: 25px;
+	position: absolute;
+	top: 1100px;
+	left: 61px;
+	background-color: #fff;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+    	border-radius: 5px;
+}
+
+#card-2 {
+    	padding: 25px;
+    	position: absolute;
+    	top: 1100px;
+	left: 610px;
+    	background-color: #fff;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+    	border-radius: 5px;
+}
+
+#card-3 {
+    	padding: 25px;
+    	position: absolute;
+    	top: 1100px;
+	left: 1005px;
+    	background-color: #fff;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+    	border-radius: 5px;
+}
+
+#card-4 {
+    	padding: 25px;
+	position: absolute;
+	top: 1500px;
+	left: 61px;
+	background-color: #fff;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+    	border-radius: 5px;
+}
+
+#card-5 {
+    	padding: 25px;
+   	position: absolute;
+    	top: 1500px;
+	left: 610px;
+    	background-color: #fff;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+    	border-radius: 5px;
+}
+
+#card-6 {
+    	padding: 25px;
+    	position: absolute;
+   	top: 1500px;
+	left: 1005px;
+    	background-color: #fff;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+    	border-radius: 5px;
+}
+
+button {
+    padding: 5px;
+    background-color: #F4F4F4;
+    color: #485F42;
+    border-radius: 6px;
+}
+
+.nome-produto {
+    font-size: 18px;
+    font-weight: bold;
+    color: #494949;
+}
+
+.valor-produto {
+    font-size: 14px;
+    color: #A9A9A9;
+}
+
 .form {
   --bg-light: #efefef;
   --bg-dark: #707070;
@@ -121,13 +225,13 @@ body {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  background-color: var(--clr-alpha);
-  outline: 2px solid var(--bg-dark);
+  background-color: var(--bege);
+  outline: 2px solid var(--laranja);
 }
 
 .form input[type="email"]:focus,
 .form input[type="password"]:focus {
-  outline: 2px solid var(--clr);
+  outline: 2px solid var(--bege);
 }
 
 .label {
@@ -143,8 +247,8 @@ body {
   align-items: center;
   gap: 0.5rem;
   border-radius: 3rem;
-  background-color: var(--bg-dark);
-  color: var(--bg-light);
+  background-color: var(--bege);
+  color: var(--verde-escuro);
   border: none;
   cursor: pointer;
   transition: all 300ms;
@@ -153,15 +257,15 @@ body {
 }
 
 .form .submit:hover {
-  background-color: var(--clr);
-  color: var(--bg-dark);
+  background-color: var(--laranja);
+  color: var(--azul);
 }
 
 .span {
   text-decoration: none;
-  color: var(--bg-dark);
+  color: var(--laranja);
 }
 
 .span a {
-  color: var(--clr);
+  color: var(--azul);
 }
