@@ -1,3 +1,8 @@
+<?php
+    // Conexao com BD! Nao tirar!!
+    require 'conexao.php';
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
