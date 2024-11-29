@@ -5,9 +5,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="botoes">
-            <a href="login_adm.php">Administrador</a>
-        </div>
+        <div class="botoes" onclick="window.location.href='login_adm.php'">Administrador</div>
         <div class="botoes">Login</div>
     </div>
 </header>
