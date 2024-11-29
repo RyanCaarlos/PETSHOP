@@ -84,8 +84,8 @@ body {
 
 .text-2 {
     position: relative;
-    top: 455px;
-    left: 20px;
+    top: 440px;
+    right: 30px;
     font-weight: 600;
     color: #A9A9A9;
     font-family: "Poppins", Helvetica;
