@@ -10,19 +10,22 @@
     </style>
 </head>
 <body>
-    <div class="form-container">
-        <p class="title">Seja bem-vindo(a)!</p>
-        <form class="form" action="../methods/logar.php" method="post">
+    <div id="form-container2">
+        <p class="title">Cadastro</p>
+        <form class="form" action="../methods/register.php" method="post">
+            <input type="text" name="nome" class="input" placeholder="Nome" required>
             <input type="email" name="email" class="input" placeholder="Email" required>
             <input type="password" name="senha" class="input" placeholder="Senha" required>
-            <button type="submit" class="button2">Entrar</button>
+            <button type="submit" class="button2">Cadastrar</button>
         </form>
         <p class="sign-up-label">
-            Não tem uma conta?
-            <a href="../templates/cadastro.php">
-                <span class="sign-up-link">Criar conta</span>
+            Já possui uma conta?
+            <a href="../templates/login.php">
+                <span class="sign-up-link">Acessar</span>
             </a>
         </p>
     </div>
 </body>
+
+
 </html>
