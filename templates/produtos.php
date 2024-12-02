@@ -1,3 +1,9 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jardim Pet</title>
+    <link rel="stylesheet" href="produtos.css">
+</head>
 <?php
 // Your PHP opening tags and any necessary includes would go here
 ?>
