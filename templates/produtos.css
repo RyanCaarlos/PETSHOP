@@ -1,21 +1,32 @@
+.product-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .product-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    padding: 20px; /* Add padding to prevent cards from touching screen edges */
-    max-width: 100%; /* Ensure container doesn't exceed screen width */
-    box-sizing: border-box; /* Include padding in width calculation */
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .card {
-    width: 300px;
+    width: calc(33.333% - 20px);
+    max-width: 350px;
     height: 400px;
     background: white;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
 }
 
 .card-img {
@@ -60,10 +71,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+    background-color: #e0e0e0;
 }
 
 .svg-icon {
     width: 20px;
     height: 20px;
     fill: #333;
+}
+
+@media (max-width: 1024px) {
+    .card {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
 }
