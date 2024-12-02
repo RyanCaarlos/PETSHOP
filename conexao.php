@@ -1,6 +1,9 @@
 <?php
  // ESSE ARQUIVO É A CONFIG DA CONEXAO COM O BANCO DE DADOS!! NAO MEXER
-session_start();
+ if (session_status() === PHP_SESSION_NONE) {
+  session_start();
+}
+
 
 $localhost = "localhost";
 $user = "root";
