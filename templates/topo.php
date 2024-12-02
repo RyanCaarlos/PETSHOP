@@ -1,4 +1,3 @@
-
 <header>
     <div class="logo">
         <div>
@@ -6,16 +5,18 @@
         </div>
     </div>
     <div class="container">
-    <div class="botoes" onclick="redirectToAdminLogin()">Administrador</div>
+        <div class="botoes" onclick="redirectToAdminLogin()">Administrador</div>
         <div class="botoes" onclick="redirectToLogin()">Login</div>
-    </div>
 </header>
+
 <script>
 function redirectToAdminLogin() {
     window.location.href = 'templates/login_adm.php';
 }
 
 function redirectToLogin() {
-    window.location.href = 'templates/login.php'; // Assuming you have a login.php file
+    window.location.href = 'templates/login.php'; 
 }
+
+
 </script>

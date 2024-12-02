@@ -11,12 +11,12 @@
 </head>
  <div class="form-container">
       <p class="title">Bem-vindo!</p>
-      <form class="form">
-        <input type="email" class="input" placeholder="Email">
-        <input type="password" class="input" placeholder="Password">
+      <form class="form" action="../methods/logar_admin.php">
+        <input type="email" class="input" placeholder="Email" required>
+        <input type="password" class="input" placeholder="Password" required>
         <p class="page-link">
         </p>
-        <button class="button2">Entrar</button>
+        <button type="submit" class="button2">Entrar</button>
       </form>
         </div>
       </div>

@@ -14,12 +14,12 @@
         <p class="title">Seja bem-vindo(a)!</p>
         <form class="form" action="../methods/logar.php" method="post">
             <input type="email" name="email" class="input" placeholder="Email" required>
-            <input type="password" name="senha" class="input" placeholder="Password" required>
+            <input type="password" name="senha" class="input" placeholder="Senha" required>
             <button type="submit" class="button2">Entrar</button>
         </form>
         <p class="sign-up-label">
             Não tem uma conta?
-            <a href="#">
+            <a href="../templates/cadastro.php">
                 <span class="sign-up-link">Criar conta</span>
             </a>
         </p>
