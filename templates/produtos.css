@@ -1,6 +1,21 @@
-.product-wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
+/* Base styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.nossos-produtos {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ffffff;
+}
+
+.nossos-produtos h1 {
+    color: #323232;
+    margin: 0;
+    font-size: 2.5em;
 }
 
 .product-container {
@@ -13,20 +28,25 @@
     margin: 0 auto;
 }
 
+/* Card styles */
 .card {
-    width: calc(33.333% - 20px);
-    max-width: 350px;
-    height: 400px;
-    background: white;
+    width: 250px;
+    height: 350px;
+    background: #ffffff;
     border-radius: 10px;
+    border: 1px solid #e0e0e0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
-    transition: transform 0.3s ease;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
 }
 
 .card:hover {
-    transform: scale(1.05);
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
 }
 
 .card-img {
@@ -34,32 +54,39 @@
     height: 200px;
     background-size: cover;
     background-position: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    margin-bottom: 15px;
 }
 
 .card-info {
-    padding: 15px;
-    flex-grow: 1;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
-.text-title {
-    font-size: 1.2em;
-    font-weight: bold;
+.card-info .text-title {
+    font-size: 18px;
+    font-weight: 600;
     color: #333;
+    margin-bottom: 5px;
 }
 
-.text-body {
-    font-size: 0.9em;
-    color: #666;
+.card-info .text-body {
+    font-size: 14px;
+    color: #777;
 }
 
 .card-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
-    border-top: 1px solid #eee;
+    margin-top: auto;
+}
+
+.card-footer .text-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
 }
 
 .card-button {
@@ -78,20 +105,25 @@
     background-color: #e0e0e0;
 }
 
-.svg-icon {
-    width: 20px;
-    height: 20px;
+.card-button .svg-icon {
+    width: 24px;
+    height: 24px;
     fill: #333;
 }
 
-@media (max-width: 1024px) {
-    .card {
-        width: calc(50% - 20px);
-    }
+/* Add background images to card-img */
+.card:nth-child(1) .card-img {
+    background-image: url('img/produto1.png');
 }
 
-@media (max-width: 768px) {
-    .card {
-        width: 100%;
-    }
+.card:nth-child(2) .card-img {
+    background-image: url('img/produto2.png');
+}
+
+.card:nth-child(3) .card-img {
+    background-image: url('img/produto3.png');
+}
+
+.card:nth-child(4) .card-img {
+    background-image: url('img/produto4.png');
 }
