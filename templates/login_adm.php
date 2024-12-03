@@ -11,9 +11,9 @@
 </head>
  <div class="form-container">
       <p class="title">Bem-vindo!</p>
-      <form class="form" action="../methods/logar_admin.php">
-        <input type="email" class="input" placeholder="Email" required>
-        <input type="password" class="input" placeholder="Password" required>
+      <form class="form" action="../methods/validacao.php" method="POST">
+        <input type="email" name="email" class="input" placeholder="Email" required>
+        <input type="password" name="password" class="input" placeholder="Password" required>
         <p class="page-link">
         </p>
         <button type="submit" class="button2">Entrar</button>

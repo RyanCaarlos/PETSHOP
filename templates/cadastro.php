@@ -29,9 +29,9 @@ unset($_SESSION['erro']);
     <div id="form-container2">
         <p class="title">Cadastro</p>
         <form class="form" action="../methods/register.php" method="POST">
-            <input type="text" name="nome" class="input" placeholder="Nome" required>
+            <input type="text" name="first_name" class="input" placeholder="Nome" required>
             <input type="email" name="email" class="input" placeholder="Email" required>
-            <input type="password" name="senha" class="input" placeholder="Senha" required>
+            <input type="password" name="password" class="input" placeholder="Senha" required>
             <button type="submit" class="button2">Cadastrar</button>
             
             <!-- Exibe a mensagem de erro, se houver -->
