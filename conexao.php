@@ -5,7 +5,7 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
-// Configurações de conexão ao servidor MySQL
+// Configurações de conexão ao servidor MySQL, mudar localhost para id do myadmin caso não funcione!!
 $localhost = "localhost";
 $user = "root";
 $passw = "";
