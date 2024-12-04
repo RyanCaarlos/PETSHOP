@@ -7,6 +7,7 @@
 - Cadastro e gerenciamento de clientes
 
 <h2>Tecnologias Utilizadas</h2>
+
 - Frontend: HTML, CSS e JavaScript
 - Backend: PHP
 - Banco de Dados: MySQL
