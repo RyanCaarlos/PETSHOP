@@ -14,7 +14,7 @@
         <p class="title">Seja bem-vindo(a)!</p>
         <form class="form" action="../methods/logar.php" method="post">
             <input type="email" name="email" class="input" placeholder="Email" required>
-            <input type="password" name="senha" class="input" placeholder="Senha" required>
+            <input type="password" name="password" class="input" placeholder="Senha" required>
             <button type="submit" class="button2">Entrar</button>
         </form>
         <p class="sign-up-label">

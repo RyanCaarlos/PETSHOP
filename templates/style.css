@@ -1,0 +1,43 @@
+.main {
+  border: solid 2px black;
+  margin: 40px;
+}
+
+h2 {
+  color: #87bbe8;
+  margin: 10px;
+
+  font-size: 2.5rem;
+}
+
+.tabela {
+  text-align: left;
+}
+
+th,
+td {
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.btn {
+  text-decoration: nome;
+  margin: 10px;
+  background-color: #6558f5;
+  color: white;
+  font-size: 19px;
+}
+
+body {
+  margin: 150px;
+}
+form {
+  margin: 20px;
+}
+
+.i {
+  width: 500px;
+  height: auto;
+  padding: 12px;
+}

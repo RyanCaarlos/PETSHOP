@@ -3,11 +3,11 @@ require '../conexao.php';
 session_start(); 
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $nome = $_POST['nome'];
+    $first_name = $_POST['first_name'];
     $email = $_POST['email'];
-    $senha = $_POST['senha'];
+    $password = $_POST['password'];
 
-    $queryCheck = "SELECT * FROM usuarios WHERE email = :email";
+    $queryCheck = "SELECT * FROM users WHERE email = :email";
     $stmtCheck = $pdo->prepare($queryCheck);
     $stmtCheck->bindParam(':email', $email);
     $stmtCheck->execute();
@@ -17,11 +17,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         header("Location: ../templates/cadastro.php"); 
         exit;
     } else {
-        $query = "INSERT INTO usuarios (nome, email, senha) VALUES (:nome, :email, :senha)";
+        $query = "INSERT INTO users (first_name, email, password) VALUES (:first_name, :email, :password)";
         $stmt = $pdo->prepare($query);
-        $stmt->bindParam(':nome', $nome);
+        $stmt->bindParam(':first_name', $first_name);
         $stmt->bindParam(':email', $email);
-        $stmt->bindParam(':senha', $senha);
+        $stmt->bindParam(':password', $password);
 
         if ($stmt->execute()) {
             header("Location: ../templates/login.php");
